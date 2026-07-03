@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeon mi sun | Portfolio</title>
+  <meta name="description" content="기발한 아이디어와 트렌디한 감각으로 가치를 창출하는 기획자 전미선의 포트폴리오입니다.">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    if (localStorage.getItem('theme') === 'light') {
+      document.documentElement.classList.add('light-theme');
+    }
+  </script>
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">JEON MI SUN <span>기획자</span></a>
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Toggle Theme">
+          <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.72" x2="5.64" y2="18.3"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+        <div class="menu-toggle" id="mobile-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">홈</a></li>
+        <li><a href="profile.html" class="nav-link">인적사항</a></li>
+        <li><a href="activities.html" class="nav-link">활동사항</a></li>
+        <li><a href="certifications.html" class="nav-link">자격사항</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main class="main-wrapper">
+    <div class="container">
+      
+      <!-- Split Hero Section -->
+      <section class="hero-container">
+        <div class="hero-content">
+          <span class="hero-tag">Creative Director & Planner</span>
+          <h1 class="hero-title" style="margin-bottom: 1.5rem; line-height: 1.35;">
+            트렌드를 리드하는<br>
+            <span class="gradient-text">아이디어 뱅크, 전미선</span>입니다.
+          </h1>
+          <p class="hero-desc" style="margin-bottom: 0; font-size: 1.1rem; line-height: 1.8; word-break: keep-all;">
+            대중의 마음을 움직이는 <strong>기발한 시각</strong>과 <strong>1만 팔로워 채널 성장 경험</strong>을 바탕으로,<br>
+            AI와 미래 실감 기술(XR)을 융합하여 실질적인 가치를 설계하는 능동적인 기획자입니다.
+          </p>
+        </div>
+        <div class="hero-image-wrapper">
+          <img src="img/img10.jpg" alt="전미선 기획자 프로필" class="hero-image" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300';">
+          <div class="hero-image-glow"></div>
+        </div>
+      </section>
+
+      <!-- Main Navigation Cards (With Colorful Glow classes) -->
+      <section class="home-grid">
+        <!-- Card 1: Profile -->
+        <div class="home-card card-pink" onclick="location.href='profile.html'">
+          <div class="card-icon">👤</div>
+          <h2 class="card-title">간단 인적사항</h2>
+          <p class="card-desc">
+            긍정적인 에너지와 뛰어난 공감 능력을 갖춘 부산 토박이 기획자! 솔직하고 위트 있는 강점과 약점, 그리고 다채로운 관심 분야를 소개합니다.
+          </p>
+          <span class="card-btn">
+            프로필 보기 
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </span>
+        </div>
+
+        <!-- Card 2: Activities -->
+        <div class="home-card card-cyan" onclick="location.href='activities.html'">
+          <div class="card-icon">🔥</div>
+          <h2 class="card-title">활동사항</h2>
+          <p class="card-desc">
+            인스타그램 팔로워 1만 명 성장 기록부터, 최신 고용24 XR 프로그램 훈련, 트렌드 분석 등 다양한 대외 활동과 실무 경험을 담았습니다.
+          </p>
+          <span class="card-btn">
+            활동내역 보기 
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </span>
+        </div>
+
+        <!-- Card 3: Certifications -->
+        <div class="home-card card-purple" onclick="location.href='certifications.html'">
+          <div class="card-icon">🏆</div>
+          <h2 class="card-title">자격사항 및 보유기술</h2>
+          <p class="card-desc">
+            ITQ 엑셀 및 파워포인트 자격증을 기반으로 한 탄탄한 문서 기획력과, 아이디어 구체화에 필요한 툴 사용 능력을 시각적으로 보여드립니다.
+          </p>
+          <span class="card-btn">
+            역량 및 자격 보기 
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </span>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">JEON MI SUN</div>
+      <p class="footer-tagline">“상상만 하던 기발한 생각을 눈앞의 현실로 구체화하는 능동적인 기획자가 되겠습니다.”</p>
+      <div class="footer-links">
+        <a href="profile.html" class="footer-link">인적사항</a>
+        <a href="activities.html" class="footer-link">활동사항</a>
+        <a href="certifications.html" class="footer-link">자격사항</a>
+        <a href="https://instagram.com/queen._.sun" target="_blank" class="footer-link" style="color: var(--primary);">Instagram</a>
+      </div>
+      <p class="footer-copyright">&copy; 2026 Jeon Mi Sun. All Rights Reserved. Designed for Recruitment Portfolio.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

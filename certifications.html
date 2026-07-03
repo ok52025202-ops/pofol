@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeon mi sun | Qualifications</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    if (localStorage.getItem('theme') === 'light') {
+      document.documentElement.classList.add('light-theme');
+    }
+  </script>
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">JEON MI SUN <span>기획자</span></a>
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Toggle Theme">
+          <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.72" x2="5.64" y2="18.3"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+        <div class="menu-toggle" id="mobile-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">홈</a></li>
+        <li><a href="profile.html" class="nav-link">인적사항</a></li>
+        <li><a href="activities.html" class="nav-link">활동사항</a></li>
+        <li><a href="certifications.html" class="nav-link">자격사항</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main class="main-wrapper">
+    <div class="container">
+      
+      <!-- Page Header -->
+      <div class="page-header">
+        <h1 class="page-title">자격사항 및 보유기술</h1>
+        <p class="page-subtitle">체계적인 업무 수행을 뒷받침하는 국가공인 자격증과 직무 역량 지표입니다.</p>
+      </div>
+
+      <!-- Certifications Grid -->
+      <section>
+        <h3 class="profile-section-title" style="margin-bottom: 2rem;">🏆 보유 자격증 및 수료증</h3>
+        <div class="cert-grid">
+          
+          <!-- Cert 1: ITQ PowerPoint -->
+          <div class="cert-card">
+            <div class="cert-icon">📊</div>
+            <div class="cert-info">
+              <h4 class="cert-name">ITQ 파워포인트 국가공인 자격</h4>
+              <p class="cert-org">한국생산성본부 (KPC)</p>
+              <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 8px;">
+                기발한 기획안을 눈에 잘 들어오는 디자인 레이아웃과 도식으로 프레젠테이션하는 역량을 보유하고 있습니다.
+              </p>
+              <span class="cert-date">자격 취득 완료</span>
+            </div>
+          </div>
+
+          <!-- Cert 2: ITQ Excel -->
+          <div class="cert-card">
+            <div class="cert-icon">📈</div>
+            <div class="cert-info">
+              <h4 class="cert-name">ITQ 엑셀 국가공인 자격</h4>
+              <p class="cert-org">한국생산성본부 (KPC)</p>
+              <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 8px;">
+                기획사무 및 보조 업무에서 핵심이 되는 기본 수식 계산, 데이터베이스 정돈 및 데이터 요약 활용이 가능합니다.
+              </p>
+              <span class="cert-date">자격 취득 완료</span>
+            </div>
+          </div>
+
+          <!-- Cert 3: XR Course -->
+          <div class="cert-card">
+            <div class="cert-icon">🥽</div>
+            <div class="cert-info">
+              <h4 class="cert-name">XR 실감콘텐츠 기획 및 실무 교육</h4>
+              <p class="cert-org">고용24 미래 유망 산업 프로그램</p>
+              <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 8px;">
+                가상현실(VR), 증강현실(AR) 및 메타버스 생태계에 대한 분석과 사용자 인터랙션 흐름 설계 실무를 훈련 중입니다.
+              </p>
+              <span class="cert-date">현재 교육 훈련 중 (2026)</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Skill Visualization -->
+      <section class="skills-section">
+        <div class="skills-intro">
+          <h3 class="profile-section-title" style="margin-bottom: 1rem; border: none;">⚡ 직무 핵심 역량</h3>
+          <p style="color: var(--text-muted); word-break: keep-all; font-size: 0.95rem;">
+            전미선의 강점인 <strong>창의적 기획력</strong>과 이를 뒷받침하는 <strong>실무 및 데이터 도구 활용 능력</strong>을 종합 수치화한 지표입니다.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          
+          <!-- Skill 1 -->
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">💡 광고 및 숏폼 아이디어 기획</span>
+              <span class="skill-percent">95%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="95"></div>
+            </div>
+          </div>
+
+          <!-- Skill 2 -->
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">📝 대사 / 시나리오 / 스크립트 작성</span>
+              <span class="skill-percent">90%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="90"></div>
+            </div>
+          </div>
+
+          <!-- Skill 3 -->
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">💖 공감 기반 소비자 분석 및 친화력</span>
+              <span class="skill-percent">92%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="92"></div>
+            </div>
+          </div>
+
+          <!-- Skill 4 -->
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">🖥️ 파워포인트 기획서 구성 (ITQ PPT)</span>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="85"></div>
+            </div>
+          </div>
+
+          <!-- Skill 5 -->
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">📊 엑셀 데이터 정돈 및 관리 (ITQ Excel)</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="80"></div>
+            </div>
+          </div>
+
+          <!-- Skill 6 -->
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">🤖 AI 툴 활용 및 트렌디한 디자인 기획</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="80"></div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Tools Section -->
+      <section style="margin-top: 4rem;">
+        <h3 class="profile-section-title" style="margin-bottom: 2rem;">🛠️ 기획 실무 도구 (Tools)</h3>
+        <div class="interests-grid" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));">
+          
+          <div class="interest-card" style="padding: 1.2rem;">
+            <span class="interest-icon" style="color: #d83b01;">📄</span>
+            <div>
+              <div class="interest-name" style="font-size: 1rem;">PowerPoint</div>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">기획안 및 피치덱</p>
+            </div>
+          </div>
+
+          <div class="interest-card" style="padding: 1.2rem;">
+            <span class="interest-icon" style="color: #107c41;">📊</span>
+            <div>
+              <div class="interest-name" style="font-size: 1rem;">Excel</div>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">데이터 및 연혁 정리</p>
+            </div>
+          </div>
+
+          <div class="interest-card" style="padding: 1.2rem;">
+            <span class="interest-icon" style="color: #f04e23;">🤖</span>
+            <div>
+              <div class="interest-name" style="font-size: 1rem;">Generative AI</div>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">아이디어 확장 & 초안</p>
+            </div>
+          </div>
+
+          <div class="interest-card" style="padding: 1.2rem;">
+            <span class="interest-icon" style="color: #e1306c;">📸</span>
+            <div>
+              <div class="interest-name" style="font-size: 1rem;">Instagram</div>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">10k 브랜딩 & 채널 분석</p>
+            </div>
+          </div>
+
+          <div class="interest-card" style="padding: 1.2rem;">
+            <span class="interest-icon" style="color: #0078d4;">💻</span>
+            <div>
+              <div class="interest-name" style="font-size: 1rem;">Miro / Figma</div>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">화면 설계 및 협업</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">JEON MI SUN</div>
+      <p class="footer-tagline">“상상만 하던 기발한 생각을 눈앞의 현실로 구체화하는 능동적인 기획자가 되겠습니다.”</p>
+      <div class="footer-links">
+        <a href="profile.html" class="footer-link">인적사항</a>
+        <a href="activities.html" class="footer-link">활동사항</a>
+        <a href="certifications.html" class="footer-link">자격사항</a>
+        <a href="https://instagram.com/queen._.sun" target="_blank" class="footer-link" style="color: var(--primary);">Instagram</a>
+      </div>
+      <p class="footer-copyright">&copy; 2026 Jeon Mi Sun. All Rights Reserved. Designed for Recruitment Portfolio.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
